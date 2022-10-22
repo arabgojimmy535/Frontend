@@ -47,17 +47,12 @@
   </div>
 </nav>
 <router-view/> 
+
 </body>
-<!-- <footer>
-<ul>
-  <li>
-    <p>
-      GRUPO 4 <br>  JIMMY ARANGO--
-    </p>
-  </li>
-</ul>
-</footer> -->
+
+
 </template>
+
 <script>
   export default{
     name:'Registrarse',
