@@ -116,6 +116,7 @@ export default {
         usado: true,
         imagen: "",
         vendido: false,
+        creadopor: 23,
       },
     };
   },
