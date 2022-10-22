@@ -1,0 +1,49 @@
+body{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/vehiculos-3ae92.appspot.com/o/fondo.jpg?alt=media&token=070f7785-3533-4197-a583-61bd1fd086be');
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+    font-weight: bold;
+    overflow-x:hidden; 
+}
+section,input{
+    backdrop-filter: blur(13px);
+    box-shadow: 0 4px 20px rgba(20, 23, 28, 0.37);
+    font-weight: bold;
+    color:aliceblue;
+}
+nav{
+    background-color: rgb(0, 55, 133,0.8);
+    margin-bottom: 0;
+    font-weight: bold;
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.tarjeta{
+    display: flex;
+    background-color: rgb(255,255,255,0.2);
+    backdrop-filter: blur(13px);
+    box-shadow: 0 4px 20px rgba(20, 23, 28, 0.37);
+    font-weight: bold;
+}
+.card-title, .precio, placeholder{
+    color:aliceblue;
+    font-weight: bold;
+}
+img{
+    width: 245px;
+    height: 255px;
+}
+
+.categoria{
+    display: flex;
+}
+.botom{
+    background-color: rgb(0, 55, 133,0.8);
+}
+
+
+
+
+
