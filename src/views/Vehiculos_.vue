@@ -29,7 +29,7 @@
                   vehiculo.año
                 }}
               </h3>
-              <h4 class="mt-4 precio">COP {{ vehiculo.precio }}</h4>
+              <h4 class="mt-4 precio">COP {{ vehiculo.precio.toLocaleString(es-CO) }}</h4>
               <router-link
                 :to="{ name: 'DetalleVehiculo', params: { id: vehiculo.id } }"
                 class="col-6 mx-5 px-5 btn btn-primary"

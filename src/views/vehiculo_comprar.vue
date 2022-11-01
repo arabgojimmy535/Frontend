@@ -12,7 +12,7 @@
               {{ vehiculo.marca }} {{ vehiculo.modelo }} <br />
               {{ vehiculo.año }}
             </h3>
-            <h4 class="mt-4 mb-2 precio">COP {{ vehiculo.precio }}</h4>
+            <h4 class="mt-4 mb-2 precio">COP {{ vehiculo.precio.toLocaleString(es-CO) }}</h4>
           </div>
         </div>
         <!-- SECCION DE FACTURACION -->
